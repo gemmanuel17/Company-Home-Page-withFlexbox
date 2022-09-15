@@ -1,4 +1,4 @@
-# Company-Home-Page-withFlexbox
+# Company Home Page with Flexbox
 
 This is a Codecademy project from their Full-Stack Engineer career path.
 
