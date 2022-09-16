@@ -55,12 +55,17 @@
 
     #navlogo {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 25px;
         margin-top: 10px;
+    }
+
+    .logo {
+        height: 100px;
     }
 
     .navbar {
         flex-direction: column;
+        font-size: 40px;
     }
 
     .nav-links {
@@ -79,8 +84,14 @@
     .menu {
         display: block;
         position:absolute;
-        right: 10px;
-        top: 18px
+        right: 20px;
+        top: 25px
+    }
+
+    .menu-lines {
+        width: 80px;
+        height: 13px;
+        margin-bottom: 10px;
     }
 
     .active {
