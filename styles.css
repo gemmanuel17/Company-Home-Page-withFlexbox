@@ -51,7 +51,7 @@
     margin-bottom: 4px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 1170px) {
 
     #navlogo {
         width: 100%;
