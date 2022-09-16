@@ -8,3 +8,4 @@ In this project, you’ll be using flexbox to design and build the layout for a 
 
 # See It Live
 
+https://gemmanuel17.github.io/Company-Home-Page-withFlexbox/
