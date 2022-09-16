@@ -3,9 +3,57 @@
 <html>
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Anvil Auto</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
 
   <body>
-    
+
+    <nav class="navbar">
+      <div id="navlogo">
+        <a href="#">
+          <img src="./resources/img/Anvil-Logo-outlined_41c8be7b-268d-4c59-99ce-710cd9d123a6.png" class="logo" />
+        </a>
+      </div>
+
+      <ul class="nav-links" id="navi-list">
+        <li class="link-item">
+          <a href="#">About Us</a>
+        </li>
+        <li class="link-item">
+          <a href="#">Products</a>
+        </li>
+        <li class="link-item">
+          <a href="#">Contact Us</a>
+        </li>
+        <li class="link-item">
+          <a href="#">Support</a>
+        </li>
+      </ul>
+      
+      <!--Mobile Device-->
+      <div class="menu" id="toggle-button">
+        <div class="menu-lines"></div>
+        <div class="menu-lines"></div>
+        <div class="menu-lines"></div>
+      </div>
+    </nav>
+
   </body>
+
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list'); 
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active');
+    })
+  </script>
+
 </html>
