@@ -7,13 +7,14 @@
 /* Nav Bar Styling */
 
 .navbar {
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
     background-color: #000000;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 99;
 }
 
 .logo {
@@ -42,6 +43,76 @@
     display: none;
 }
 
+
+/* Hero Styling */
+
+.hero-banner {
+    display: flex;
+    background-image: url("./resources/img/anvil-mustang-front-persp_reduced_height.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 37rem;
+    position: relative;
+    top: 60px;
+}
+
+.hero-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+
+.hero-text h1 {
+    color: #ffffff;
+    text-shadow: 0 0 20px #000000;
+}
+
+.button {
+    text-align: center;
+    padding: 10px;
+    background-color: #edc107;
+    width: 9rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button a:hover {
+    color: #434343;
+}
+
+/* About Us Styling */
+
+.about-us-container {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 20px 0px;
+}
+
+.about-us-container h1 {
+    font-size: 3rem;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
 /* Mobile Devices Styling */
 
 .menu-lines {
