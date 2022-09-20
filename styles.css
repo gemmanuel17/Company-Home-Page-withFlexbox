@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #000000;
+}
+
 /* Nav Bar Styling */
 
 .navbar {
@@ -53,7 +57,6 @@
     background-size: cover;
     width: 100%;
     height: 50rem;
-    position: relative;
     top: 60px;
 }
 
@@ -98,11 +101,9 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 60px 0px 0px 0px;
     padding: 20px 0px;
 }
 
@@ -166,12 +167,13 @@
 }
 
 .content h5 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-.content h6 {
+.content p {
     font-size: 1.1rem;
     padding: 20px 50px;
+    line-height: 1.5;
 }
 
 .feature .button {
@@ -179,6 +181,28 @@
     color: #000000;
     margin: 0px auto 20px auto;
 }
+
+/* Location Styling */
+
+#location {
+    background-image: url("./resources/img/carbon-fiber-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.location-title {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0px;
+}
+
+.locations {
+    padding-bottom: 50px;
+}
+
 
 
 /* Mobile Devices Styling */
