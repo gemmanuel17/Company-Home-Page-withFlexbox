@@ -52,7 +52,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 37rem;
+    width: 100%;
+    height: 50rem;
     position: relative;
     top: 60px;
 }
@@ -92,14 +93,18 @@
 
 .about-us-container {
     color: #ffffff;
-    background-color: #000000;
+    /*background-color: #000000;*/
+    background-image: url("./resources/img/carbon-fiber-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: center;
     align-items: center;
-    margin: 60px 0px;
+    margin: 60px 0px 0px 0px;
     padding: 20px 0px;
 }
 
@@ -138,7 +143,7 @@
     }
 
     .logo {
-        height: 100px;
+        height: 70px;
     }
 
     .navbar {
@@ -163,16 +168,34 @@
         display: block;
         position:absolute;
         right: 20px;
-        top: 25px
+        top: 15px
     }
 
     .menu-lines {
-        width: 80px;
-        height: 13px;
+        width: 65px;
+        height: 10px;
         margin-bottom: 10px;
     }
 
     .active {
         display: block;
+    }
+
+    /* Hero Styling */
+
+    .hero-banner {
+        height: 29rem;
+    }
+
+    .hero-text {
+        font-size: 2.1rem;
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+
+    /* About Us Styling */
+
+    .about-us p {
+        width: 70%;
     }
 }
