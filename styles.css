@@ -1,4 +1,4 @@
-* {
+* { font-family: 'Inter', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,7 +7,6 @@
 /* Nav Bar Styling */
 
 .navbar {
-    font-family: 'Inter', sans-serif;
     background-color: #000000;
     width: 100%;
     position: fixed;
@@ -59,9 +58,8 @@
 }
 
 .hero-text {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 340px;
+    font-size: 3rem;
+    margin-top: 390px;
     margin-left: 50px;
 }
 
@@ -71,10 +69,11 @@
 }
 
 .button {
+    font-size: 2rem;
     text-align: center;
     padding: 10px;
     background-color: #edc107;
-    width: 9rem;
+    width: 10rem;
     margin-top: 10px;
     margin-left: 20px;
     border-radius: 5px;
@@ -93,17 +92,16 @@
 
 .about-us-container {
     color: #ffffff;
-    /*background-color: #000000;*/
     background-image: url("./resources/img/carbon-fiber-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: center;
     align-items: center;
+    height: auto;
     margin: 60px 0px 0px 0px;
     padding: 20px 0px;
 }
@@ -116,13 +114,71 @@
     font-size: 1.1rem;
     line-height: 1.5;
     text-align: center;
-    width: 60%;
+    width: 50%;
     padding-top: 10px;
     margin: auto;
 }
 
 /* Featured Products Styling */ 
 
+#products {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 50px;
+}
+
+#featured-products {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.feature {
+    width: 50%;
+}
+
+.feature .center {
+    display: block;
+    margin: 10px 100px;
+    padding: 50px;
+    background-image: url("./resources/img/carbon-fiber-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px inset #edc107;
+}
+
+.feature .image-container {
+    margin: 10px;
+}
+
+.feature img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.feature .content {
+    text-align: center;
+}
+
+.content h5 {
+    font-size: 2rem;
+}
+
+.content h6 {
+    font-size: 1.1rem;
+    padding: 20px 50px;
+}
+
+.feature .button {
+    display: block;
+    color: #000000;
+    margin: 0px auto 20px auto;
+}
 
 
 /* Mobile Devices Styling */
@@ -207,5 +263,11 @@
     .about-us p {
         font-size: 2.2rem;
         width: 70%;
+    }
+
+    /* Featured Products Styling */
+
+    #products {
+        flex-direction: column;
     }
 }
