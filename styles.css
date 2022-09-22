@@ -256,7 +256,7 @@ body {
     margin-bottom: 4px;
 }
 
-@media all and (max-width: 1170px) {
+@media only screen and (max-device-width: 428px) and (max-device-height: 926px) {
 
     #navlogo {
         width: 100%;
@@ -433,6 +433,47 @@ body {
 
     .instagram-logo img, .facebook-logo img {
         width: 4rem;
+    }
+
+}
+
+/* Tablet Styling */
+
+@media only screen and (max-device-width: 1024px) and (max-device-height: 1366px) {
+
+    /*Hero Styling*/
+
+    .hero-banner {
+        height: 30rem;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        margin-top: 200px;
+    }
+
+    /* About Us Styling */
+
+    .about-us-container {
+        height: 15rem;
+    }
+
+    /*Feature Styling*/
+
+    .feature {
+        width: 90%;
+    }
+
+    .feature .center {
+        margin: 10px 17px  30px 17px;
+    }
+
+    .content p {
+        padding: 20px 5px;
+    }
+
+    .feature .button {
+        margin: 0px auto -15px auto;
     }
 
 }
