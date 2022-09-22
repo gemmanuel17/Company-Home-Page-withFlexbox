@@ -439,10 +439,10 @@ body {
 
 /* Tablet Styling */
 
-@media only screen and (min-device-width: 429) and (max-device-width: 1024px) and (min-device-height: 927px) and (max-device-height: 1366px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (max-device-height: 1366px) {
 
     /*Hero Styling*/
-
+    
     .hero-banner {
         height: 30rem;
     }
