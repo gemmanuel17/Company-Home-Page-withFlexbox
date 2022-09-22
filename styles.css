@@ -315,7 +315,6 @@ body {
     }
 
     .hero-text {
-        font-size: 3.5rem;
         margin: 740px auto 0px auto;
     }
 
@@ -329,15 +328,15 @@ body {
     /* About Us Styling */
 
     .about-us-container {
-        height: 50rem;
+        height: 45rem;
     }
 
     .about-us-container h1 {
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
     
     .about-us p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 70%;
     }
 
@@ -348,7 +347,7 @@ body {
     }
 
     #products h1 {
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
 
     #featured-products {
@@ -390,7 +389,7 @@ body {
     }
 
     .location-title h1 {
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
 
     .locations-mobile iframe {
@@ -408,11 +407,11 @@ body {
     }
 
     .contact-us-container h1 {
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
 
     .contact-us-container p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     /* Footer Styling */
